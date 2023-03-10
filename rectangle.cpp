@@ -2,15 +2,17 @@
 
 int main() {
     int N, M;
-    std::cout << "Enter the value of N: "<<std::endl;
+    char C;	
+    std::cout << "Enter the value of row (N): "<<std::endl;
     std::cin >> N;
-    std::cout << "Enter the value of M: "<<std::endl;
+    std::cout << "Enter the value of column (M): "<<std::endl;
     std::cin >> M;
-
+    std::cout << "Enter the value of character (C): "<<std::endl;
+    std::cin >> C;
     for (int i = 1; i <= M; i++) {
         for (int j = 1; j <= N; j++) {
             if (i == 1 || i == M || j == 1 || j == N) {
-		    std::cout << "*";
+		    std::cout << C;
             } else {
 		    std::cout<< " ";
             }
