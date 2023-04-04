@@ -15,7 +15,6 @@ class SuperArray
        	SuperArray()
 	{
 		size = 0;
-		data = 0;
 	}
 
 	~SuperArray()
